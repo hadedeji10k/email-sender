@@ -10,7 +10,6 @@ const app = express()
 app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 
-
 // To accept JSON objects
 app.use(express.json());
 
