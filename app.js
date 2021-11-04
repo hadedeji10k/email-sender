@@ -7,7 +7,7 @@ const nodemailer = require("nodemailer")
 const app = express()
 
 // EXPRESS MIDDLEWRARES SETUP
-app.use(cors());
+app.use(cors())
 app.use(express.urlencoded({ extended: false }));
 
 // To accept JSON objects
