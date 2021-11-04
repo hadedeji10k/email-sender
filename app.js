@@ -13,8 +13,8 @@ app.use(express.urlencoded({ extended: false }));
 // To accept JSON objects
 app.use(express.json());
 
-app.use(bodyParser.urlencoded({ extended: false }))
-app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
   return res.status(201).json({
